@@ -5,24 +5,22 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Victor Hall">
-  <div class="h-screen flex flex-col">
-    <Header />
-    <main class="flex-1 container mx-auto px-4 pt-12 pb-6">
-      <div class="max-w-screen-md mx-auto">
-        <h2 class="text-center text-4xl font-semibold tracking-tight">
-          Hey, I'm Victor 👨‍💻
-        </h2>
-        <p class="leading-7 my-5">
-          I'm a software enginer working for AO as a full stack engineer helping
-          them scale their mobile division. Previously, I worked at
-          <a
-            class="text-blue-600 visited:text-purple-600 underline"
-            href="https://woventeams.com"
-            referrerpolicy="no-referrer">Woven</a
-          >.
-        </p>
-      </div>
-    </main>
-    <Footer />
-  </div>
+  <Header />
+  <main class="container max-w-screen-md mx-auto px-4 pt-14 pb-12">
+    <div class="max-w-screen-md mx-auto">
+      <h2 class="text-center text-4xl font-semibold tracking-tight">
+        Hey, I'm Victor 👨‍💻
+      </h2>
+      <p class="text-center leading-7 mt-5">
+        I'm a software enginer working for AO as a full stack engineer helping
+        them scale their mobile division. Previously, I also worked at
+        <a
+          class="text-blue-600 visited:text-purple-600 underline"
+          href="https://woventeams.com"
+          referrerpolicy="no-referrer">Woven</a
+        >.
+      </p>
+    </div>
+  </main>
+  <Footer />
 </Layout>
