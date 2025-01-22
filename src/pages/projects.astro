@@ -4,5 +4,47 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Victor Hall">
   <h2 class="text-3xl font-semibold tracking-tight mb-6">Projects</h2>
-  <p class="text-center">Work in Progress</p>
+
+  <div>
+    <h3>
+      <span class="font-bold"> URL Shortener </span> |
+      <span class="italic">
+        React, TypeScript, NextJS, Golang, gRPC, PostgreSQL, Docker
+      </span>
+    </h3>
+    <a
+      href="https://github.com/VHall1/shorturl"
+      referrerpolicy="no-referrer"
+      class="underline">Source Code</a
+    >
+    <ul class="mt-2 ml-6 list-disc">
+      <li>
+        Built a scalable URL shortening service, designed to be able to handle
+        millions of requests a day
+      </li>
+      <li>
+        Implemented a microservice-based architecture to enable different
+        portions of the system to be scaled independently
+      </li>
+      <li>
+        Leveraged Twitter Snowflake IDs to generate space-efficient unique IDs
+        in a distributed architecture
+      </li>
+      <li>
+        Utilised Base62 conversion to generate user-friendly shortened URLs
+      </li>
+      <li>
+        Implemented gRPC to enable highly efficient messaging between services
+      </li>
+      <li>
+        Leveraged GitHub actions to implement a CI pipeline, ensuring all tests
+        are run on new Pull Requests, while also automatically detecting
+        out-of-date dependencies
+      </li>
+      <li>
+        Developed web application using React and NextJS to enable seamless SSR
+        integration
+      </li>
+    </ul>
+  </div>
 </Layout>
