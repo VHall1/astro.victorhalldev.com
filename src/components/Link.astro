@@ -7,9 +7,4 @@ type Props = HTMLAttributes<"a">;
 const { class: className, ...props } = Astro.props;
 ---
 
-<a
-  class={cn("text-blue-600 visited:text-purple-600 underline", className)}
-  {...props}
->
-  <slot />
-</a>
+<a class={cn("text-blue-600 visited:text-purple-600 underline", className)} {...props}><slot /></a>
