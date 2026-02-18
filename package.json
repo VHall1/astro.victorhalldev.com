@@ -11,15 +11,15 @@
     "deploy": "wrangler pages deploy dist"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/tailwind": "^5.1.2",
-    "astro": "^4.16.15",
+    "@astrojs/check": "^0.9.2",
+    "@tailwindcss/vite": "^4.2.0",
+    "astro": "^5.17.3",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^3.4.15",
+    "tailwind-merge": "^3.4.1",
+    "tailwindcss": "^4.2.0",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "wrangler": "^3.91.0"
+    "wrangler": "^4.66.0"
   }
 }
